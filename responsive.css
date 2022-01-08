@@ -11,19 +11,20 @@
     --fancy-font: 'Sofia', cursive;
   /* links: */
     --link-color: #ffffff;
-    --hover: #a80c01;
+    --hover: #fd8579;
   /* navbar links: */
     --highlight: #ffffff; /* active bg color */
     --active: #10192b /* active text color */
 }
 
+html {
+   background: var(--main-bg) no-repeat center top fixed;
+   background-size: cover;
+   background-color: var(--bg-2);
+}
+
 body {
    height: 100%;
-   background-image: var(--main-bg);
-   background-color: var(--bg-2);
-   background-repeat: no-repeat;
-   background-size: cover;
-   background-position: center top;
    font-family: var(--main-font);
    margin: 0;
    padding: 0px 0px 30px 0px;
